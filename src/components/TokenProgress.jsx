@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const TokenProgress = () => {
     const [minted, setMinted] = useState(0);
-    const [max, setMax] = useState(1); // Default to 1 to avoid division by zero
+    const [max, setMax] = useState(1); // Default to 1 to avoid division by zero.
 
     useEffect(() => {
         const fetchTokenData = async () => {
