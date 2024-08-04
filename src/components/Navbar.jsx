@@ -30,7 +30,7 @@ const Navbar = () => {
                 <ul className="flex space-x-8 text-gray-300">
                     <li className="transition-all ease-in-out hover:text-white">
                         <a
-                            href="https://discord.gg/EB8VvA9DVf"
+                            href="https://discord.gg/nachothekat"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -80,7 +80,7 @@ const Navbar = () => {
                 <ul className="space-y-10 pt-8">
                     <li className="transition-all ease-in-out hover:text-white">
                         <a
-                            href="https://discord.gg/EB8VvA9DVf"
+                            href="https://discord.gg/nachothekat"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center justify-center"

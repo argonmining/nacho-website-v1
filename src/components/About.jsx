@@ -31,7 +31,7 @@ const About = () => {
                 <div className="mt-6 hidden md:flex md:justify-center space-x-4">
                     <a
                         className="px-4 py-3 rounded-full border-2 border-black dark:border-white flex items-center"
-                        href="https://discord.gg/EB8VvA9DVf"
+                        href="https://discord.gg/nachothekat"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -53,7 +53,7 @@ const About = () => {
             <div className="md:hidden my-4 space-y-4 flex flex-col items-center">
                 <a
                     className="px-4 py-3 rounded-full border-2 dark:border-white border-black flex items-center"
-                    href="https://discord.gg/EB8VvA9DVf"
+                    href="https://discord.gg/nachothekat"
                     target="_blank"
                     rel="noopener noreferrer"
                 >

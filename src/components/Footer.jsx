@@ -20,7 +20,7 @@ const Footer = () => {
             <div className="my-8 md:my-0">
                 <ul className="space-y-4 flex flex-col items-center md:items-start">
                     <li>
-                        <a href="https://discord.gg/EB8VvA9DVf" className="flex items-center">
+                        <a href="https://discord.gg/nachothekat" className="flex items-center">
                             <FaDiscord className="w-6 h-6 mr-1" />
                             <p>Discord</p>
                         </a>

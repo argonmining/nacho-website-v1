@@ -19,7 +19,7 @@ const TopBar = () => {
         </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </div>
       <div className="social-links">
-        <a href="https://discord.gg/EB8VvA9DVf" target="_blank" rel="noopener noreferrer">
+        <a href="https://discord.gg/nachothekat" target="_blank" rel="noopener noreferrer">
           <FaDiscord />
         </a>
         <a href="https://t.me/nachothecat" target="_blank" rel="noopener noreferrer">
