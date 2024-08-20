@@ -46,9 +46,6 @@ const TokenProgress = () => {
                     <p className="mt-2 text-xl md:text-2xl text-center">
                         {progress.toFixed(2)}% ({minted.toLocaleString()}) of NACHO tokens have been minted.
                     </p>
-                    <p className="mt-2 text-xl md:text-2xl text-center">
-                        IMPORTANT NOTICE: KRC20 indexers are down until Kasplex and third parties fix the issues presented in the beta launch. According to Kasplex, Nacho tokens that have already been minted will show up when that happens; they are safe on the chain. Check our Discord announcements for updates.
-                    </p>
                 </div>
             </div>
         </div>
