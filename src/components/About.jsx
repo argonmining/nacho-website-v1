@@ -67,7 +67,7 @@ const About = () => {
                     rel="noopener noreferrer"
                 >
                     <FaXTwitter className="w-6 h-6 mr-1" />
-                    Follow Twitter
+                    Follow on X
                 </a>
             </div>
         </div>
