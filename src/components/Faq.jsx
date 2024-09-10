@@ -110,7 +110,7 @@ const Faq = () => {
                     </p>
                     <p className="font-bold text-lg">kaspa:qrt3lf6jejjdzwtnvlr3z35w7j6q66gt49a7grdwsq98nmlg5uz97whuf8qfr</p>
                     <button
-                        onClick={() => navigator.clipboard.writeText('kaspa:qp...your-wallet-address-here')}
+                        onClick={() => navigator.clipboard.writeText('kaspa:qrt3lf6jejjdzwtnvlr3z35w7j6q66gt49a7grdwsq98nmlg5uz97whuf8qfr')}
                         className="bg-[#65c0b1] hover:bg-[#50a08e] text-white font-bold py-2 px-4 rounded mt-2"
                     >
                         Copy Wallet Address
