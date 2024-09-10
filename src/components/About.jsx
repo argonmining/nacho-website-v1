@@ -42,6 +42,15 @@ const About = () => {
                     </a>
                     <a
                         className="px-4 py-3 rounded-full border-2 border-black dark:border-white flex items-center"
+                        href="https://t.me/nachothecat"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <FaTelegram className="w-6 h-6 mr-1" />
+                        Join Telegram
+                    </a>
+                    <a
+                        className="px-4 py-3 rounded-full border-2 border-black dark:border-white flex items-center"
                         href="https://x.com/NachoWyborski"
                         target="_blank"
                         rel="noopener noreferrer"
