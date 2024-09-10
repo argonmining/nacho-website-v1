@@ -9,7 +9,7 @@ const Faq = () => {
         },
         {
             question: 'When and how can I buy Nacho?',
-            answer: 'Nacho isn’t bought—it’s minted. The initial launch occurred on June 30, 2024, but minting will resume on September 15, 2024, at 8:00 AM (New York City time). To mint your NACHO tokens, simply use the Kasware Wallet. Through this fair launch process, you can mint tokens directly and become part of the Nacho community.',
+            answer: 'Nacho isn’t bought—it’s minted. The initial launch took place on June 30, 2024, and minting will resume on September 15, 2024, at 8:00 AM (New York City time). The easiest way to mint your NACHO tokens is by using the Kat Bot in our Discord. Alternatively, you can use the KSPR Bot in Telegram via this link: https://t.me/kspr_home_bot?start=nacho. As a third option, you can mint through the Kasware Wallet. Through this fair launch process, everyone has equal access to mint tokens and join the Nacho community.',
         },
         {
             question: 'What does mint mean?',
