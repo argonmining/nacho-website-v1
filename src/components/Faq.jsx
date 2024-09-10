@@ -50,33 +50,53 @@ const Faq = () => {
         },
         {
             question: 'Will Nacho have a presale?',
-            answer: `No, Nacho is a fair launch project. This means there will be no presale or preferential treatment—everyone has an equal opportunity to mint tokens from the start. A fair launch fosters trust, transparency, and ensures that the entire community has equal access from day one.`,
+            answer: 'No, Nacho will not have a presale. As a fair launch project, everyone has an equal opportunity to mint tokens without any presale or special privileges. This approach promotes trust, transparency, and equal access, ensuring the entire community can participate right from the start.',
         },
         {
             question: 'Where can I store Nacho?',
             answer: (
                 <>
-                    Once the KRC20 standard is live on the Kaspa Mainnet, wallet
-                    providers are highly likely to update their wallets to
-                    support KRC20. The only wallet known to be working on
-                    supporting KRC20 at the time of launch is Kasware -{' '}
-                    <a
-                        href="https://www.kasware.xyz/"
-                        className="text-[#65c0b1]"
-                    >
-                        https://www.kasware.xyz/
-                    </a>
+                    Once the KRC-20 standard is live on the Kaspa Mainnet, several wallet providers are expected to update their wallets to support KRC-20 tokens. Currently, you can store your Nacho tokens using the following options:
+                    <ul>
+                        <li>
+                            Kat Bot in Discord
+                            <a
+                                href="https://discord.gg/nachothekat"
+                                className="text-[#65c0b1]"
+                            >
+                                https://discord.gg/nachothekat
+                            </a>
+                        </li>
+                        <li>
+                            KSPR Bot in Telegram -{' '}
+                            <a
+                                href="https://t.me/kspr_home_bot?start=nacho"
+                                className="text-[#65c0b1]"
+                            >
+                                https://t.me/kspr_home_bot?start=nacho
+                            </a>
+                        </li>
+                        <li>
+                            Kasware Wallet -{' '}
+                            <a
+                                href="https://www.kasware.xyz/"
+                                className="text-[#65c0b1]"
+                            >
+                                https://www.kasware.xyz/
+                            </a>
+                        </li>
+                    </ul>
                 </>
             ),
         },
         {
             question: 'Can I mine Nacho?',
-            answer: `No, Nacho and other KRC-20 tokens cannot be mined. Instead of mining, Nacho tokens are minted, meaning they are created and distributed through a minting process within the Kaspa ecosystem.`,
-        },
+            answer: 'No, Nacho and other KRC-20 tokens cannot be mined. Instead, Nacho tokens are minted, meaning they are created and distributed through a minting process on the Kaspa network. This minting process allows users to acquire tokens directly, rather than through traditional mining methods.',
+        },        
         {
             question: 'How much will Nacho cost?',
-            answer: `The cost of Nacho is determined by the minting process. Based on the Kasplex whitepaper, each mint requires a gas fee of 1 KAS, paid to Kaspa miners. For Nacho, this gas fee will allow you to mint 28,700 tokens per batch. Please note that this structure is subject to change as the final details are confirmed.`,
-        },
+            answer: 'The cost of Nacho is determined through the minting process. Each mint requires a gas fee of 1 KAS, paid to Kaspa miners. For each batch, this gas fee will allow you to mint 28,700 Nacho tokens. Please note that this structure may change as final details are confirmed.',
+        },        
         {
             question: 'What will be the DEX for Nacho?',
             answer: `While the exact DEX for Nacho is still to be determined, we are aware of two DEXs and a marketplace currently in development on the Kaspa network. Once the KRC-20 standard is fully live on the Kaspa Mainnet, it's likely that Nacho will be available for trading on one or more of these platforms. Stay tuned as the ecosystem evolves!`,
@@ -84,11 +104,24 @@ const Faq = () => {
         {
             question: 'Does Nacho receive donations?',
             answer: (
-                <div className="flex justify-center">
-                    <img src="donation_wallet.png" alt="donation wallet" />
+                <div className="text-center">
+                    <p>
+                        Yes, Nacho does accept donations! You can send donations to the following wallet address:
+                    </p>
+                    <p className="font-bold text-lg">kaspa:qrt3lf6jejjdzwtnvlr3z35w7j6q66gt49a7grdwsq98nmlg5uz97whuf8qfr</p>
+                    <button
+                        onClick={() => navigator.clipboard.writeText('kaspa:qp...your-wallet-address-here')}
+                        className="bg-[#65c0b1] hover:bg-[#50a08e] text-white font-bold py-2 px-4 rounded mt-2"
+                    >
+                        Copy Wallet Address
+                    </button>
+                    <div className="flex justify-center mt-4">
+                        <img src="donation_wallet.png" alt="donation wallet QR code" />
+                    </div>
                 </div>
             ),
         },
+        
     ]
 
     return (
