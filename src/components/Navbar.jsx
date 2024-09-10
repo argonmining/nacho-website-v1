@@ -58,14 +58,24 @@ const Navbar = () => {
                 </ul>
             </div>
 
-            <a
-                className="px-4 py-3 hidden rounded-full border-2 border-white md:flex items-center"
-                href="/Nacho_the_kat_Whitepaper_240605.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Whitepaper
-            </a>
+            <div className="flex space-x-4">
+                <a
+                    className="px-4 py-3 hidden rounded-full border-2 border-white md:flex items-center"
+                    href="https://katscan.nachowyborski.xyz"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    KatScan
+                </a>
+                <a
+                    className="px-4 py-3 hidden rounded-full border-2 border-white md:flex items-center"
+                    href="/Nacho_the_kat_Whitepaper_240605.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Whitepaper
+                </a>
+            </div>
 
             {/* Mobile View */}
             <div className="md:hidden">
@@ -120,17 +130,6 @@ const Navbar = () => {
                         >
                             <FaRegNewspaper className="h-6 w-6 mr-2" />
                             <p>Whitepaper</p>
-                        </a>
-                    </li>
-                    <li className="transition-all ease-in-out hover:text-white">
-                        <a
-                            href="https://katscan.nachowyborski.xyz"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center justify-center"
-                        >
-                            <FaRegNewspaper className="h-6 w-6 mr-2" />
-                            <p>KatScan</p>
                         </a>
                     </li>
                 </ul>

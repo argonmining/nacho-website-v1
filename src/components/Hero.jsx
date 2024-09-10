@@ -25,7 +25,25 @@ const Hero = () => {
                 </p>
                 <p className="text-3xl">
                     Ticker: NACHO
-                </p>                
+                </p>
+                <div className="flex space-x-4 mt-8">
+                    <a
+                        className="px-4 py-3 rounded-full border-2 border-white flex items-center"
+                        href="https://t.me/kspr_home_bot?start=nacho"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Mint w/ KSPR Bot
+                    </a>
+                    <a
+                        className="px-4 py-3 rounded-full border-2 border-white flex items-center"
+                        href="https://discord.gg/nachothekat"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Mint w/ Kat Bot
+                    </a>
+                </div>
             </div>
         </div>
     )
