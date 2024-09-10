@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaDiscord, FaXTwitter } from 'react-icons/fa6'
+import { FaDiscord, FaXTwitter, FaTelegram, FaCat } from 'react-icons/fa6'
 
 const About = () => {
     return (
