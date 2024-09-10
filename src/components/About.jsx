@@ -24,6 +24,15 @@ const About = () => {
                 <div className="mt-6 hidden md:flex md:justify-center space-x-4">
                     <a
                         className="px-4 py-3 rounded-full border-2 border-black dark:border-white flex items-center"
+                        href="https://t.me/kspr_home_bot?start=nacho"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <FaXTwitter className="w-6 h-6 mr-1" />
+                        Mint NACHO
+                    </a>
+                    <a
+                        className="px-4 py-3 rounded-full border-2 border-black dark:border-white flex items-center"
                         href="https://discord.gg/nachothekat"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -38,7 +47,7 @@ const About = () => {
                         rel="noopener noreferrer"
                     >
                         <FaXTwitter className="w-6 h-6 mr-1" />
-                        Follow Twitter
+                        Follow on X
                     </a>
                 </div>
             </div>
