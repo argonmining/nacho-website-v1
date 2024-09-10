@@ -122,6 +122,17 @@ const Navbar = () => {
                             <p>Whitepaper</p>
                         </a>
                     </li>
+                    <li className="transition-all ease-in-out hover:text-white">
+                        <a
+                            href="https://katscan.nachowyborski.xyz"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center"
+                        >
+                            <FaRegNewspaper className="h-6 w-6 mr-2" />
+                            <p>KatScan</p>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
