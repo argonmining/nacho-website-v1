@@ -28,7 +28,7 @@ const About = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <FaXTwitter className="w-6 h-6 mr-1" />
+                        <FaCat className="w-6 h-6 mr-1" />
                         Mint NACHO
                     </a>
                     <a
