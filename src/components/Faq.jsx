@@ -5,19 +5,19 @@ const Faq = () => {
     const faqItems = [
         {
             question: 'What is KRC-20?',
-            answer: 'KRC-20 is a token standard on the Kaspa network. It defines the rules and conventions for creating and managing fungible tokens, similar to the ERC-20 standard on Ethereum. This standard ensures that all tokens created on the Kaspa network are interoperable and can be used within the ecosystem seamlessly.',
+            answer: 'KRC-20 is the token standard for the Kaspa network, defining the guidelines for creating and managing fungible tokens. Similar to Ethereum’s ERC-20 standard, KRC-20 ensures consistency and interoperability across the Kaspa ecosystem. This allows any token built using KRC-20 to integrate seamlessly with wallets, exchanges, and decentralized applications, empowering developers and users alike to easily interact with the broader Kaspa network.',
         },
         {
             question: 'When and how can I buy Nacho?',
-            answer: 'Nacho will be minted.  You will need to mint your tokens from within the Kasware Wallet. NACHO will launch on June 30, 2024 @ 10:30am New York City time.',
+            answer: 'Nacho isn’t bought—it’s minted. The initial launch occurred on June 30, 2024, but minting will resume on September 15, 2024, at 8:00 AM (New York City time). To mint your NACHO tokens, simply use the Kasware Wallet. Through this fair launch process, you can mint tokens directly and become part of the Nacho community.',
         },
         {
             question: 'What does mint mean?',
-            answer: 'When a token is minted, it is generated and added to the total supply, making it available for use within the Kaspa ecosystem. The token will be available to mint from any KRC20 compatible wallet like Kasware. Official ticker for Nacho is NACHO, confirmed by Kasplex on June 20.',
+            answer: 'Minting a token means creating new tokens and adding them to the total supply, making them available for use within the Kaspa ecosystem. For Nacho, you can mint tokens through any KRC-20 compatible wallet, such as Kasware. Nacho’s official ticker is NACHO.',
         },
         {
             question: 'Does Nacho have an official ticker?',
-            answer: `Yes, it does. Official ticker for Nacho is NACHO, confirmed by Kasplex on June 20.`,
+            answer: `Yes, it does. Official ticker for Nacho is NACHO, it was deployed on Kasplex on June 30.`,
         },        
         {
             question: 'Will Nacho offer airdrops?',
@@ -50,7 +50,7 @@ const Faq = () => {
         },
         {
             question: 'Will Nacho have a presale?',
-            answer: `Nacho will be fair launch. A fair launch ensures equal opportunity for all to acquire tokens without pre-sales or preferential treatment, fostering trust and transparency in the community.`,
+            answer: `No, Nacho is a fair launch project. This means there will be no presale or preferential treatment—everyone has an equal opportunity to mint tokens from the start. A fair launch fosters trust, transparency, and ensures that the entire community has equal access from day one.`,
         },
         {
             question: 'Where can I store Nacho?',
@@ -71,15 +71,15 @@ const Faq = () => {
         },
         {
             question: 'Can I mine Nacho?',
-            answer: `Based on our understanding, KRC20 tokens are not mineable, including Nacho.`,
+            answer: `No, Nacho and other KRC-20 tokens cannot be mined. Instead of mining, Nacho tokens are minted, meaning they are created and distributed through a minting process within the Kaspa ecosystem.`,
         },
         {
             question: 'How much will Nacho cost?',
-            answer: `To be determined. Based on the Kasplex whitepaper, each mint of new KRC20 Tokens will require a gas fee of 1 KAS that will be paid to miners. Nacho will allow for batch mints of 28,700 Nacho tokens per mint. This is subject to change prior to finalization of the whitepaper..`,
+            answer: `The cost of Nacho is determined by the minting process. Based on the Kasplex whitepaper, each mint requires a gas fee of 1 KAS, paid to Kaspa miners. For Nacho, this gas fee will allow you to mint 28,700 tokens per batch. Please note that this structure is subject to change as the final details are confirmed.`,
         },
         {
             question: 'What will be the DEX for Nacho?',
-            answer: `To be determined. Once the KRC20 standard is live on the Kaspa Mainnet, it is highly likely we will see a DEX built and deployed. We will need to wait and see.`,
+            answer: `While the exact DEX for Nacho is still to be determined, we are aware of two DEXs and a marketplace currently in development on the Kaspa network. Once the KRC-20 standard is fully live on the Kaspa Mainnet, it's likely that Nacho will be available for trading on one or more of these platforms. Stay tuned as the ecosystem evolves!`,
         },
         {
             question: 'Does Nacho receive donations?',
