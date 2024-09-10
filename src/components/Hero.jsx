@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import { FaRobot, FaCat } from 'react-icons/fa'
 
 const Hero = () => {
     return (
@@ -33,6 +34,7 @@ const Hero = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
+                        <FaRobot className="w-6 h-6 mr-2" />
                         Mint w/ KSPR Bot
                     </a>
                     <a
@@ -41,6 +43,7 @@ const Hero = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
+                        <FaCat className="w-6 h-6 mr-2" />
                         Mint w/ Kat Bot
                     </a>
                 </div>

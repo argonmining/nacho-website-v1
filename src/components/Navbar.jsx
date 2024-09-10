@@ -69,6 +69,14 @@ const Navbar = () => {
                 </a>
                 <a
                     className="px-4 py-3 hidden rounded-full border-2 border-white md:flex items-center"
+                    href="https://discord.gg/nachothekat"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Kat Bot
+                </a>
+                <a
+                    className="px-4 py-3 hidden rounded-full border-2 border-white md:flex items-center"
                     href="/Nacho_the_kat_Whitepaper_240605.pdf"
                     target="_blank"
                     rel="noopener noreferrer"

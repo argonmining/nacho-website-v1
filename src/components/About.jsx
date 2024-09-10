@@ -13,21 +13,14 @@ const About = () => {
                     <span className="font-bold text-4xl mr-3">
                         So, what is Nacho?
                     </span>
-                    Nacho is the name of the cat owned by Shai Wyborski, a
-                    member of the core team behind Kaspa. This project pays
-                    homage to Shai, and his cat Nacho and was created to
-                    champion the amazing work of the Kasplex team in creating
-                    the KRC20 token standard.
+                    Nacho is named after the beloved cat of Shai Wyborski, a key figure in the Kaspa ecosystem. This project is a tribute to Shai and his cat, Nacho, and stands as a celebration of the groundbreaking work by the Kasplex team in developing the KRC20 token standard.
                 </p>
                 <p className="text-3xl mt-4">
-                    Nacho is more than just a memecoin, it is proof of what is
-                    possible on the Kaspa network. With the Kasplex protocol
-                    coming soon, it’s time for Nacho to set the standard for
-                    tokens on Kaspa.
+                    But Nacho is more than just a memecoin. It serves as a symbol of innovation and community within the Kaspa network, showcasing the possibilities that decentralized technology can offer. As the Kasplex protocol evolves, Nacho aims to lead the charge, setting the gold standard for all tokens on Kaspa.
                 </p>
                 <p className="text-3xl mt-4">
                     Official KRC20 Ticker: <span className="font-bold text-4xl mr-3">NACHO</span>
-                </p>                
+                </p>
                 <div className="mt-6 hidden md:flex md:justify-center space-x-4">
                     <a
                         className="px-4 py-3 rounded-full border-2 border-black dark:border-white flex items-center"
