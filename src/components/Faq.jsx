@@ -59,7 +59,7 @@ const Faq = () => {
                     Once the KRC-20 standard is live on the Kaspa Mainnet, several wallet providers are expected to update their wallets to support KRC-20 tokens. Currently, you can store your Nacho tokens using the following options:
                     <ul>
                         <li>
-                            Kat Bot in Discord
+                            Kat Bot in Discord -{' '}
                             <a
                                 href="https://discord.gg/nachothekat"
                                 className="text-[#65c0b1]"
