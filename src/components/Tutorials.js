@@ -21,6 +21,19 @@ const Tutorials = () => {
                             <iframe
                                 width="100%"
                                 height="100%"
+                                src="https://www.youtube.com/embed/B2G2fiezubk"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                                style={{ position: 'absolute', top: 0, left: 0 }}
+                            ></iframe>
+                        </div>
+                    </div>
+                    <div className="flex flex-col items-center">
+                        <div className="w-full" style={{ paddingBottom: '50%', position: 'relative' }}>
+                            <iframe
+                                width="100%"
+                                height="100%"
                                 src="https://www.youtube.com/embed/2Cz86eFAL50"
                                 title="YouTube video player"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -28,21 +41,7 @@ const Tutorials = () => {
                                 style={{ position: 'absolute', top: 0, left: 0 }}
                             ></iframe>
                         </div>
-                    </div>      
-                    <div className="flex flex-col items-center">
-                        <div className="w-full" style={{ paddingBottom: '50%', position: 'relative' }}>
-                            <iframe
-                                width="100%"
-                                height="100%"
-                                src="https://www.youtube.com/embed/m6N7Po-ogVE"
-                                title="YouTube video player"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen
-                                style={{ position: 'absolute', top: 0, left: 0 }}
-                            ></iframe>
-                        </div>
-                    </div>             
-
+                    </div>
                     <div className="flex flex-col items-center">
                         <div className="w-full" style={{ paddingBottom: '50%', position: 'relative' }}>
                             <iframe
@@ -81,7 +80,20 @@ const Tutorials = () => {
                                 style={{ position: 'absolute', top: 0, left: 0 }}
                             ></iframe>
                         </div>
-                    </div>                                            
+                    </div>
+                    <div className="flex flex-col items-center">
+                        <div className="w-full" style={{ paddingBottom: '50%', position: 'relative' }}>
+                            <iframe
+                                width="100%"
+                                height="100%"
+                                src="https://www.youtube.com/embed/m6N7Po-ogVE"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                                style={{ position: 'absolute', top: 0, left: 0 }}
+                            ></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
