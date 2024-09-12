@@ -95,7 +95,7 @@ const Faq = () => {
         },        
         {
             question: 'How much will Nacho cost?',
-            answer: 'The cost of Nacho is determined through the minting process. Each mint requires a gas fee of 1 KAS, paid to Kaspa miners. For each batch, this gas fee will allow you to mint 28,700 Nacho tokens. Please note that this structure may change as final details are confirmed.',
+            answer: 'The cost of Nacho is determined through the minting process. Each mint requires a gas fee of 1 KAS, paid to Kaspa miners. For each batch, this gas fee will allow you to mint 28,700 Nacho tokens.',
         },        
         {
             question: 'What will be the DEX for Nacho?',
