@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaDiscord, FaXTwitter, FaTelegram, FaCat } from 'react-icons/fa6'
+import { FaDiscord, FaXTwitter, FaTelegram } from 'react-icons/fa6'
 
 const About = () => {
     return (
@@ -22,15 +22,6 @@ const About = () => {
                     Official KRC20 Ticker: <span className="font-bold text-4xl mr-3">NACHO</span>
                 </p>
                 <div className="mt-6 hidden md:flex md:justify-center space-x-4">
-                    <a
-                        className="px-4 py-3 rounded-full border-2 border-black dark:border-white flex items-center"
-                        href="https://t.me/kspr_home_bot?start=nacho"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <FaCat className="w-6 h-6 mr-1" />
-                        Mint NACHO
-                    </a>
                     <a
                         className="px-4 py-3 rounded-full border-2 border-black dark:border-white flex items-center"
                         href="https://discord.gg/nachothekat"

@@ -9,11 +9,11 @@ const Faq = () => {
         },
         {
             question: 'When and how can I buy Nacho?',
-            answer: 'Nacho isn’t bought—it’s minted. The initial launch took place on June 30, 2024, and minting will resume on September 15, 2024, at 8:00 AM (New York City time). The easiest way to mint your NACHO tokens is by using the Kat Bot in our Discord. Alternatively, you can use the KSPR Bot in Telegram via this link: https://t.me/kspr_home_bot?start=nacho. As a third option, you can mint through the Kasware Wallet. Through this fair launch process, everyone has equal access to mint tokens and join the Nacho community.',
+            answer: 'Nacho isn’t bought—it’s minted. The initial launch took place on June 30, 2024, and the remainder of the supply was minted on September 15, 2024. The easiest way to mint KRC-20 tokens is by using the Kat Bot in our Discord. Alternatively, you can use the KSPR Bot in Telegram via this link: https://t.me/kspr_home_bot?start=nacho. Through this fair launch process, everyone has equal access to mint tokens and join the Nacho community.',
         },
         {
             question: 'What does mint mean?',
-            answer: 'Minting a token means creating new tokens and adding them to the total supply, making them available for use within the Kaspa ecosystem. For Nacho, you can mint tokens through any KRC-20 compatible wallet, such as Kasware. Nacho’s official ticker is NACHO.',
+            answer: 'Minting a token means creating new tokens and adding them to the total supply, making them available for use within the Kaspa ecosystem. For Nacho, you can mint tokens through any KRC-20 compatible wallet. Nacho’s official ticker is NACHO.',
         },
         {
             question: 'Does Nacho have an official ticker?',
@@ -74,15 +74,6 @@ const Faq = () => {
                                 className="text-[#65c0b1]"
                             >
                                 https://t.me/kspr_home_bot?start=nacho
-                            </a>
-                        </li>
-                        <li>
-                            Kasware Wallet -{' '}
-                            <a
-                                href="https://www.kasware.xyz/"
-                                className="text-[#65c0b1]"
-                            >
-                                https://www.kasware.xyz/
                             </a>
                         </li>
                     </ul>
