@@ -99,15 +99,15 @@ const Faq = () => {
                     <p>
                         Yes, Nacho does accept donations! You can send donations to the following wallet address:
                     </p>
-                    <p className="font-bold text-lg">kaspa:qrt3lf6jejjdzwtnvlr3z35w7j6q66gt49a7grdwsq98nmlg5uz97whuf8qfr</p>
+                    <p className="font-bold text-lg">kaspa:qrlk2f25g4clhzhadd26u502rqfn287y59mm2tj5k6mwamgp2jzkg904jfrc6</p>
                     <button
-                        onClick={() => navigator.clipboard.writeText('kaspa:qrt3lf6jejjdzwtnvlr3z35w7j6q66gt49a7grdwsq98nmlg5uz97whuf8qfr')}
+                        onClick={() => navigator.clipboard.writeText('kaspa:qrlk2f25g4clhzhadd26u502rqfn287y59mm2tj5k6mwamgp2jzkg904jfrc6')}
                         className="bg-[#65c0b1] hover:bg-[#50a08e] text-white font-bold py-2 px-4 rounded mt-2"
                     >
                         Copy Wallet Address
                     </button>
                     <div className="flex justify-center mt-4">
-                        <img src="donation_wallet.png" alt="donation wallet QR code" />
+                        <img src="_wallet.png" alt="donation wallet QR code" />
                     </div>
                 </div>
             ),
