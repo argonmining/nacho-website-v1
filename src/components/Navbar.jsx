@@ -6,6 +6,7 @@ import {
     FaXTwitter,
     FaRegNewspaper,
     FaSearch,
+    FaExchange,
 } from 'react-icons/fa6'
 
 const Navbar = () => {
@@ -197,7 +198,7 @@ const Navbar = () => {
                             rel="noopener noreferrer"
                             className="flex items-center justify-center"
                         >
-                            <FaRegNewspaper className="h-6 w-6 mr-2" />
+                            <FaExchange className="h-6 w-6 mr-2" />
                             <p>Trading Marketplace</p>
                         </a>
                     </li>
