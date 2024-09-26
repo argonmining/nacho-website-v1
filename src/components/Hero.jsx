@@ -15,7 +15,6 @@ const Hero = () => {
                     alt="Nacho"
                     className="h-48 w-48"
                 />
-
                 <p className="text-4xl my-4">Nacho the 𐤊at</p>
                 <p className="text-3xl">
                     Inspired by Shai Wyborski's pet cat Nacho
@@ -26,6 +25,14 @@ const Hero = () => {
                 <p className="text-3xl">
                     Ticker: NACHO
                 </p>
+                <a
+                    className="px-4 py-3 mt-4 rounded-full border-2 border-white flex items-center"
+                    href="https://t.me/kspr_home_bot?start=nacho"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Trade on KSPR Marketplace
+                </a>
             </div>
         </div>
     )

@@ -5,6 +5,7 @@ import {
     FaTelegram,
     FaXTwitter,
     FaRegNewspaper,
+    FaSearch,
 } from 'react-icons/fa6'
 
 const Navbar = () => {
@@ -125,6 +126,17 @@ const Navbar = () => {
                     </li>
                     <li className="transition-all ease-in-out hover:text-white">
                         <a
+                            href="https://katscan.xyz"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center"
+                        >
+                            <FaSearch className="h-6 w-6 mr-2" />
+                            <p>KatScan</p>
+                        </a>
+                    </li>
+                    <li className="transition-all ease-in-out hover:text-white">
+                        <a
                             href="https://t.me/nachothecat"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -180,13 +192,13 @@ const Navbar = () => {
                     </li>
                     <li className="transition-all ease-in-out hover:text-white">
                         <a
-                            href="https://katscan.xyz"
+                            href="https://t.me/kspr_home_bot?start=nacho"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center justify-center"
                         >
                             <FaRegNewspaper className="h-6 w-6 mr-2" />
-                            <p>KatScan</p>
+                            <p>Trading Marketplace</p>
                         </a>
                     </li>
                 </ul>
