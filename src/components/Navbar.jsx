@@ -109,22 +109,10 @@ const Navbar = () => {
             </div>
 
             <div
-                className={`${
-                    isMenuOpen === true ? '' : 'hidden'
-                } absolute w-full top-20 left-0 right-0 text-center bg-[#231f20] py-8 md:hidden`}
+                className={`${isMenuOpen === true ? '' : 'hidden'
+                    } absolute w-full top-20 left-0 right-0 text-center bg-[#231f20] py-8 md:hidden`}
             >
                 <ul className="space-y-10 pt-8 flex flex-col items-center">
-                    <li className="transition-all ease-in-out hover:text-white">
-                        <a
-                            href="https://discord.gg/nachothekat"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center justify-center"
-                        >
-                            <FaDiscord className="h-6 w-6 mr-2" />
-                            <p>Discord</p>
-                        </a>
-                    </li>
                     <li className="transition-all ease-in-out hover:text-white">
                         <a
                             href="https://katscan.xyz"
@@ -134,6 +122,17 @@ const Navbar = () => {
                         >
                             <FaChartLine className="h-6 w-6 mr-2" />
                             <p>KatScan</p>
+                        </a>
+                    </li>
+                    <li className="transition-all ease-in-out hover:text-white">
+                        <a
+                            href="https://discord.gg/nachothekat"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center"
+                        >
+                            <FaDiscord className="h-6 w-6 mr-2" />
+                            <p>Discord</p>
                         </a>
                     </li>
                     <li className="transition-all ease-in-out hover:text-white">
