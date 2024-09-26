@@ -107,7 +107,7 @@ const Faq = () => {
                         Copy Wallet Address
                     </button>
                     <div className="flex justify-center mt-4">
-                        <img src="_wallet.png" alt="donation wallet QR code" />
+                        <img src="donation_wallet.png" alt="donation wallet QR code" />
                     </div>
                 </div>
             ),
