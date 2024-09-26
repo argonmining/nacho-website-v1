@@ -140,6 +140,39 @@ const Navbar = () => {
                             <p>Whitepaper</p>
                         </a>
                     </li>
+                    <li className="transition-all ease-in-out hover:text-white">
+                        <a
+                            href="/Nacho the Kat Roadmap.png"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center"
+                        >
+                            <FaRegNewspaper className="h-6 w-6 mr-2" />
+                            <p>Roadmap</p>
+                        </a>
+                    </li>
+                    <li className="transition-all ease-in-out hover:text-white">
+                        <a
+                            href="/Nacho the Kat One Pager.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center"
+                        >
+                            <FaRegNewspaper className="h-6 w-6 mr-2" />
+                            <p>One Pager</p>
+                        </a>
+                    </li>
+                    <li className="transition-all ease-in-out hover:text-white">
+                        <a
+                            href="https://katscan.xyz"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center"
+                        >
+                            <FaRegNewspaper className="h-6 w-6 mr-2" />
+                            <p>KatScan</p>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
