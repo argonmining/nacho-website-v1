@@ -83,6 +83,22 @@ const Navbar = () => {
                 >
                     Whitepaper
                 </a>
+                <a
+                    className="px-4 py-3 hidden rounded-full border-2 border-white md:flex items-center"
+                    href="/Nacho the Kat One Pager.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    One Pager
+                </a>
+                <a
+                    className="px-4 py-3 hidden rounded-full border-2 border-white md:flex items-center"
+                    href="/Nacho the Kat Roadmap.png"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Roadmap
+                </a>
             </div>
 
             {/* Mobile View */}
