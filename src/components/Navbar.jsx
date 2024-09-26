@@ -5,7 +5,7 @@ import {
     FaTelegram,
     FaXTwitter,
     FaRegNewspaper,
-    FaSearch,
+    FaChartLine,
     FaExchange,
 } from 'react-icons/fa6'
 
@@ -113,7 +113,7 @@ const Navbar = () => {
                     isMenuOpen === true ? '' : 'hidden'
                 } absolute w-full top-20 left-0 right-0 text-center bg-[#231f20] py-8 md:hidden`}
             >
-                <ul className="space-y-10 pt-8">
+                <ul className="space-y-10 pt-8 flex flex-col items-center">
                     <li className="transition-all ease-in-out hover:text-white">
                         <a
                             href="https://discord.gg/nachothekat"
@@ -132,7 +132,7 @@ const Navbar = () => {
                             rel="noopener noreferrer"
                             className="flex items-center justify-center"
                         >
-                            <FaSearch className="h-6 w-6 mr-2" />
+                            <FaChartLine className="h-6 w-6 mr-2" />
                             <p>KatScan</p>
                         </a>
                     </li>
