@@ -29,7 +29,7 @@ const Navbar = () => {
 
             {/* Desktop View */}
             <div className="hidden md:block">
-                <ul className="flex justify-center space-x-8 text-gray-300">
+                <ul className="flex space-x-8 text-gray-300">
                     <li className="transition-all ease-in-out hover:text-white">
                         <a
                             href="https://discord.gg/nachothekat"
