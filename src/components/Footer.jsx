@@ -47,17 +47,21 @@ const Footer = () => {
             </div>
             <div className="md:max-w-[40%] text-sm">
                 <p>
-                    This project is community-driven, and there is no legal or
-                    official representation. The information provided here does
-                    not constitute financial advice, and we do not recommend
-                    this project as an investment.
+                    Nacho the Kat (NACHO) is a community-owned, community-funded, and
+                    community-operated project with no legal or official representation.
+                    The information provided on this site does not constitute financial
+                    advice, and we do not recommend this project as an investment. There
+                    are no guarantees or promises regarding future value, gains, or
+                    financial returns. Participation is voluntary, and users should
+                    understand the inherent risks of cryptocurrency markets.
                 </p>
                 <p className="mt-2">
-                    We are not affiliated with any company or group, including
-                    KRC20, Kaspa, and Kasplex. We are not in control of or
-                    responsible for any changes to KRC20 standards or the
-                    unavailability of any app or tool to mint, swap, or perform
-                    any operation that may affect this initiative.
+                    Nacho the Kat is not affiliated with any company or group, including
+                    KRC20, Kaspa, or Kasplex. We have no control over changes to KRC20
+                    standards or the availability of tools and apps that may impact minting,
+                    swapping, or other operations related to this project. Users are
+                    encouraged to conduct their own research and seek independent
+                    financial advice before engaging with any crypto-related activities.
                 </p>
             </div>
         </footer>
